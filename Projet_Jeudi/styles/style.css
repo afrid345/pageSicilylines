@@ -1,0 +1,163 @@
+#background {
+
+    height: 150vh;
+    background-repeat: no-repeat;
+    margin: 15px;
+
+}
+
+
+
+#backgroundRecherche {
+    background: url("../images/plages.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 345px;
+}
+
+#backgroundReservation {
+    background: url("../images/test.PNG");
+    background-repeat: no-repeat;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 35px;
+    color: #fff;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: #fff;
+}
+
+.form-submit-button {
+    background-color: #0004fc;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 35px;
+    padding: 5px 23px;
+    cursor: pointer;
+
+}
+
+.submit-btn {
+    background-color: #8bf3ef;
+    font-weight: bold;
+    padding: 5px 23px;
+    cursor: pointer;
+}
+
+
+.form {
+    margin: 25px;
+    background-color: #59BEF8;
+    width: 500px;
+    padding: 20px;
+}
+
+
+
+.form-submit-button2 {
+    background-color: #D00C0C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 35px;
+    margin: 3px;
+}
+
+.form-submit-button2:hover {
+
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: black;
+
+}
+
+
+.navbar-brand {
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: #000;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+}
+
+.btn {
+    background-color: #8bf3ef;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 3px;
+    color: #000;
+
+}
+
+/* j'ai fait un CSS basique, le but étant de montrer la technique pour colorer le fond de l'étoile 1 si on est sur la 1ère étoile, les étoiles 1 et 2 si on est sur la 2ème étoile, etc */
+.C2etoiles {
+    background: white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.C2etoiles:hover {
+    background: yellow;
+}
+
+.C2etoiles div {
+    display: inline-block;
+    padding: 5px;
+}
+
+.C2etoiles div::after {
+    content: "\002605";
+
+    /* une étoile en Unicode */
+}
